@@ -23,5 +23,10 @@ git-pull:
 three: git-pull
 	echo Hello - three
 
+four: 
+	echo Hello - Four-1
+	make git-pull
+	echo Hello - Four-2
+
 
 
