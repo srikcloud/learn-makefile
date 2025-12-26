@@ -14,7 +14,14 @@ one:
 two:
 	@echo Hello - two
 # this syntax will print only output
- 
+
 # make supports only tab spaces indentation, simple spaces will not work
+
+git-pull:
+	git pull
+
+three: git-pull
+	echo Hello - three
+
 
 
